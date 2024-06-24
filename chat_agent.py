@@ -13,7 +13,7 @@ from vertexai.generative_models import (
     Part,
 )
 
-PROJECT_ID = os.environ.get("oacz-genai-es")  # Your Google Cloud Project ID
+PROJECT_ID = os.environ.get("your-project-id")  # Your Google Cloud Project ID
 LOCATION = os.environ.get("europe-west3")  # Your Google Cloud Project Region
 vertexai.init(project=PROJECT_ID, location=LOCATION)
 
